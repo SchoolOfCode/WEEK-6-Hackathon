@@ -6,22 +6,22 @@ PLAN DESCRIPTION
 
 ## IDEAS & PLANNING
 
-1. My Idea was to create simple mathematic quiz, that would require from the user to complete few calculations before getting the final result. 
-2. I considered two options: descriptive challenge, where user received the story behind the quiz or just simple calculation function. I decided to go with the first option (descriptive quiz). 
-3. While preparing plan I created 2 MVPs for my project.
+1. My concept was to develop a straightforward math quiz that required users to perform a few calculations before obtaining the final answer.
+2. I contemplated two alternatives: a descriptive challenge where the user would learn the story behind the quiz or a straightforward calculation function. I opted for the descriptive quiz.
+3. During the planning phase, I developed two MVPs for my project.
 
 ## MVP1 
 
-1. To create Kata about winner of the local raffle who shared his prize between 4 nephews. User would know only the amount given to the 4 nephews and following few steps would calculate the full raffle prize. 
-2. To properly set the VScode files including: npm installation, adding vitest to the devDependencies, adding export to the main.js file and import to the main.test.js. 
-3. Following the Test Driven Development, to create the test based on the Kata result and run the failing test. 
-4. To write the function matching the test results to make sure the Kata works properly.
-5. To add more tests defining if the function works correctly. 
+1. To develop a Kata about the local raffle winner who divided his prize among four nephews. The user would only know the amount given to each nephew, and a series of steps would calculate the total raffle prize.
+2. To correctly configure the VScode files, including npm installation, adding vitest to the devDependencies, exporting from the main.js file, and importing into the main.test.js file.
+3. Following the Test-Driven Development (TDD) approach, to create a test based on the Kata outcome and run the failing test.
+4. To write a function that matches the test results to ensure the Kata functions correctly.
+5. To add additional tests to verify the function's correctness.
 
 ## MVP2
 
-1. To add one more challenge to the quiz, where the amount of first nephew wouldn't be less than 100 and no more than 1000 also divisible by 100.  
-2. To create the test that checks if point 1 of MVP2 is met. 
+1. To enhance the quiz by adding an additional challenge where the amount of the first nephew must not be less than 100, not more than 1000, and must be divisible by 100.
+2. To develop a test that verifies if the first requirement of MVP2 is fulfilled.
 
 ## KATA DESCRIPTION:
 
@@ -43,8 +43,8 @@ PLAN DESCRIPTION
 5.      }
 
 ## REFLECTIONS: 
-1. This hackaton nicely consoldated the knowledge from this week. 
-2. Deffinitely different approched was needed for a single project. 
-3. Sharing details within our group helped to improved our projects alot.  
-4. In my project it was very helpful to create 2 MVPs as MVP2 took some time to solve but at least I had MVP1 ready in place. 
-5. For the first time I fully followed the TDD method and was able to see the beenefits of this method. 
+1. The hackathon effectively consolidated the knowledge gained this week.
+2. A distinct approach was definitely required for a single project.
+3. Sharing details within our group significantly improved our projects.
+4. In my project, creating two MVPs was very helpful. MVP2 took some time to solve, but having MVP1 ready was beneficial.
+5. For the first time, I fully adhered to the TDD method and was able to experience its benefits.
