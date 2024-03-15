@@ -102,11 +102,30 @@ test("to check if first nephew received 1000, total price = 3600", () => {
     expect(actual).toBe(expected); 
     }); 
 
-    // test("to check if first nephew received less than 100", () => {
-    //     // Arrange
-    //     const firstNephew = Math.floor(Math.random() * 100);
-    //     expect(() => totalPrize(firstNephew)).toThrowError(
-    //         /^Amount can't be lower than 100$/
-    //     );
-    // });
-    
+test("to check if first nephew received an invalid input", () => {
+    const firstNephew = 999;
+    const expected = "Invalid input";
+    const actual = totalPrize(firstNephew);
+    expect(actual).toBe(expected);
+});
+
+test("to check if first nephew received an invalid input", () => {
+    const firstNephew = 42;
+    const expected = "Invalid input";
+    const actual = totalPrize(firstNephew);
+    expect(actual).toBe(expected);
+});
+
+test("to check if first nephew received an invalid input", () => {
+    const firstNephew = 325;
+    const expected = "Invalid input";
+    const actual = totalPrize(firstNephew);
+    expect(actual).toBe(expected);
+});
+
+test("to check if first nephew received an invalid input", () => {
+    const firstNephew = 345346;
+    const expected = "Invalid input";
+    const actual = totalPrize(firstNephew);
+    expect(actual).toBe(expected);
+});
